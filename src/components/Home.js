@@ -19,7 +19,7 @@ export default function Home(){
   ))
 
   return(
-    <div className="container">
+    <div className="container-fluid mx-0">
         <Header />
         <Carousel />
         <div className="row my-3">
