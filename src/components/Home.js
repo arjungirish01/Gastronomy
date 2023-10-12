@@ -3,6 +3,8 @@ import "bootstrap/dist/css/bootstrap.css"
 import 'bootstrap'
 import data from "../data"
 import Header from "./Header.js";
+import Carousel from "./Carousel.js"
+
 export default function Home(){
 
   let cardElement=data.map((data,index)=>(
@@ -19,7 +21,8 @@ export default function Home(){
   return(
     <div className="container">
         <Header />
-        <div className="row m-1">
+        <Carousel />
+        <div className="row my-3">
             <div className="col-4 gx-2">
               {cardElement}
             </div>
