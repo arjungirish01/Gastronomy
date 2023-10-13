@@ -9,13 +9,13 @@ export default function Carousel(){
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="10000">
-      <img src={brar} class="d-block w-100" alt="Ranveer Brar"  style={{'width':'300px','height':'300px'}} />
+      <img src={brar} class="d-block w-100" alt="Ranveer Brar"  style={{'width':'100%','height':'400px'}} />
     </div>
     <div className="carousel-item" data-bs-interval="2000">
-      <img src={gordon} className="d-block w-100" alt="Gordon Ramsay" style={{'width':'300px','height':'300px'}} />
+      <img src={gordon} className="d-block w-100" alt="Gordon Ramsay" style={{'width':'100%','height':'400px'}} />
     </div>
     <div className="carousel-item">
-      <img src={alian} class="d-block w-100" alt="Alian" style={{'width':'300px','height':'300px'}} />
+      <img src={alian} class="d-block w-100" alt="Alian" style={{'width':'100%','height':'400px'}} />
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">

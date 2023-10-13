@@ -4,29 +4,35 @@ import 'bootstrap'
 import data from "../data"
 import Header from "./Header.js";
 import Carousel from "./Carousel.js"
+import "./CSS/Home.css";
 
 export default function Home(){
 
   let cardElement=data.map((data,index)=>(
-    <div className="card" style={{"width": "18rem"}} key={index}>
-      <img src="..." className="card-img-top" alt="..." />
+    <div className="col-lg-4 col-sm-12 col-md-6">
+        <div className="card m-2 cards" style={{"width": "19rem",'height':'34rem','border':'2px'}} key={index}>
+      <img src={data.img} className="card-img-top" alt="food" style={{'width':'100%','height':'200px'}} />
       <div className="card-body">
-        <h5 className="card-title">{data.desc}</h5>
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" className="btn btn-primary">Go somewhere</a>
+        <h5 className="card-title">{data.title}</h5>
+        <div className="text-justify">
+        <p className="card-text ">{data.desc}</p>
+        </div>
+        <div className="text-center">
+        <a href="#" className="btn btn-primary mt-2">Recipe and More</a>
+        </div>
       </div>
     </div>
+    </div> 
   ))
 
   return(
-    <div className="container-fluid mx-0">
+    <div className="container-fluid p-0 bg-dark">
         <Header />
         <Carousel />
-        <div className="row my-3">
-            <div className="col-4 gx-2">
-              {cardElement}
-            </div>
+        <div className="row mx-5 mt-2">
+          {cardElement}
         </div>
+          
     </div>
   )
 }
