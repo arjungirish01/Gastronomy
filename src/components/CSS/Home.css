@@ -1,0 +1,14 @@
+/* .cards:hover{
+  box-shadow: 5px 5px 2px rgb(184, 238, 184) !important;
+  transform:scale (5);
+} */
+
+.card {
+  transition: transform 0.2s; /* Add a smooth transition for the transform property */
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.01); /* Enlarge the card on hover */
+  box-shadow: 3px 3px 2px rgb(199, 197, 197);
+}
