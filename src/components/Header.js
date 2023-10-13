@@ -7,7 +7,7 @@ import "bootstrap";
 export default function Header(){
   return(
     <header>
-      <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <nav className="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
       <div className="container-fluid">
         <a href="/">
          <img className="img-fluid" src={logo} alt="logo" style={{'width':'60px','height':'60px'}} />

@@ -5,7 +5,7 @@ import alian from "../images/chefs/Alian.jpg";
 
 export default function Carousel(){
   return(
-    <div className="container-fluid mx-0 p-0">
+    <div className="container-fluid mx-0 p-0" style={{'marginTop':'3rem'}}>
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="10000">

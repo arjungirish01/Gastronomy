@@ -4,7 +4,9 @@ import 'bootstrap'
 import data from "../data"
 import Header from "./Header.js";
 import Carousel from "./Carousel.js"
+import Footer from "./Footer.js";
 import "./CSS/Home.css";
+
 
 export default function Home(){
 
@@ -32,7 +34,7 @@ export default function Home(){
         <div className="row mx-5 mt-2">
           {cardElement}
         </div>
-          
+        <Footer />   
     </div>
   )
 }
