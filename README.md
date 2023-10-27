@@ -4,7 +4,6 @@
 
 Welcome to the Global Gastronomy Culinary Quest project, a one-of-a-kind culinary adventure that takes you on a journey around the world to explore the finest dishes and provides you with an opportunity to meet and chat with the brilliant chefs behind these delectable creations. This README will guide you through the project, explaining its purpose, features, and how to get started.
 
-![Global Gastronomy Culinary Quest](https://example.com/images/culinary_quest.jpg)
 
 ## Project Overview
 
