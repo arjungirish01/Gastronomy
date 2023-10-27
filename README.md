@@ -43,7 +43,7 @@ Become part of a passionate global community of food enthusiasts. Engage with li
 
 ## Getting Started
 
-1. **Clone the Repository**: Start by cloning the Global Gastronomy Culinary Quest project repository from [GitHub](https://github.com/YourOrganization/global-gastronomy-culinary-quest).
+1. **Clone the Repository**: Start by cloning the Global Gastronomy Culinary Quest project repository from [GitHub](https://github.com/arjungirish01/Gastronomy.git).
 
 2. **Set Up the Environment**: Follow the provided installation instructions to set up the required environment and dependencies.
 
@@ -55,7 +55,7 @@ Become part of a passionate global community of food enthusiasts. Engage with li
 
 ## Support and Feedback
 
-Since Global Gastronomy Culinary Quest is a work in progress, we are actively seeking feedback to improve the platform. If you have questions, feedback, or need assistance, please don't hesitate to reach out. You can contact our support team at [support@culinaryquest.com](mailto:arjun@pixeldev.tech).
+Since Global Gastronomy Culinary Quest is a work in progress, we are actively seeking feedback to improve the platform. If you have questions, feedback, or need assistance, please don't hesitate to reach out. You can contact our support team at [arjun@pixeldev.tech](mailto:arjun@pixeldev.tech).
 
 ## Conclusion
 
